@@ -6,13 +6,17 @@ Need to connect to WiFi via command line / Web GUI after booting up P4wnP1 for t
 Here's how:
 1.  Open the Terminal
 2.  Enter this command:  <code>P4wnP1_cli wifi set sta -s WiFiNetworkName -k MyPassword</code>
-3.  Wait a few seconds and try <code>ping -c2 google.com</code>
+3.  Wait a few seconds (about 5 seconds for RPi 0 W) and try <code>ping -c2 google.com</code>
 
 ## Install RPi GPIO
 <code>sudo apt-get install rpi.gpio</code>
 
 ## Install Luma.OLED
 <code>sudo pip3 install luma luma.oled</code>
+
+## Enable SPI
+https://www.raspberrypi-spy.co.uk/2014/08/enabling-the-spi-interface-on-the-raspberry-pi/
+
 
 
 Possible Errors:
