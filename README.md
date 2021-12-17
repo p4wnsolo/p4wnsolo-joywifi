@@ -18,14 +18,14 @@ If you don't Reconnect, then we select a network using the OLED Joystick:
 Here's the "Input WiFi password" screen:
 <img src="/images/p4wnsolo-joywifi-password-input.jpg">
 
-The script checks your Internet connection by pinging Google:
-<img src="/images/p4wnsolo-joywifi-link-quality.jpg">
+And here's what it looks like if you press the Backspace key (KEY2):
+<img src="/images/p4wnsolo-joywifi-backspace.jpg">
 
-It also shows your IP address after it connects to WiFi:
+The script shows your IP address after it connects to WiFi:
 <img src="/images/p4wnsolo-joywifi-connected-ip-address.jpg">
 
-Here's what it looks like when you press the Backspace key (KEY2):
-<img src="/images/p4wnsolo-joywifi-backspace.jpg">
+It also checks your Internet connection by pinging Google:
+<img src="/images/p4wnsolo-joywifi-link-quality.jpg">
 
 We can save our WiFi SSID & password (unsafely in a txt file - be careful):
 <img src="/images/p4wnsolo-joywifi-save-network.jpg">
