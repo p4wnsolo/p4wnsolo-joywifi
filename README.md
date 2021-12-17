@@ -8,6 +8,23 @@ Here's how:
 2.  Enter this command:  <code>P4wnP1_cli wifi set sta -s WiFiNetworkName -k MyPassword</code>
 3.  Wait a few seconds and try <code>ping -c2 google.com</code>
 
+## Install RPi GPIO
+<code>sudo apt-get install rpi.gpio</code>
+
+## Install Luma.OLED
+<code>sudo pip3 install luma luma.oled</code>
+
+
+Possible Errors:
+I ran into the following error(s) the first time I tried to install luma.core on a fresh P4wnP1 install:
+  \__main__.RequiredDependencyException: jpeg
+  Failed building wheel for pillow
+The headers or library files could not be found for jpeg,
+  a required dependency when compiling Pillow from source.
+
+I re-ran the command to install luma and it gave me the same pillow / jpeg error:
+<code>  Failed building wheel for pillow  </code>
+
 Working folder (for dev):
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
