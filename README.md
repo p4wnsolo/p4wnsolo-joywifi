@@ -1,7 +1,8 @@
 # p4wnsolo-joywifi
 Use OLED Joystick to input WiFi password on P4wnP1
 
-
+Working folder (for dev):
+root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
 First, we scan for WiFi networks:
 <img src="/images/p4wnsolo-joywifi-scanning.jpg">
