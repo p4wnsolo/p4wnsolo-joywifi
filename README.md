@@ -1,6 +1,13 @@
 # p4wnsolo-joywifi
 Use OLED Joystick to input WiFi password on P4wnP1
 
+## Connect P4wnP1 to WiFi without p4wnsolo-joywifi
+Need to connect to WiFi via command line / Web GUI after booting up P4wnP1 for the first time?
+Here's how:
+1.  Open the Terminal
+2.  Enter this command:  <code>P4wnP1_cli wifi set sta -s WiFiNetworkName -k MyPassword</code>
+3.  Wait a few seconds and try <code>ping -c2 google.com</code>
+
 Working folder (for dev):
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
