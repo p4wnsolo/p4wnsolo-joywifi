@@ -29,3 +29,6 @@ It also checks your Internet connection by pinging Google:
 
 We can save our WiFi SSID & password (unsafely in a txt file - be careful):
 <img src="/images/p4wnsolo-joywifi-save-network.jpg">
+
+Finally, the script displays the p4wnsolo Dashboard (Demo):
+<img src="/images/p4wnsolo-joywifi-dashdemo.jpg">
