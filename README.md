@@ -16,6 +16,8 @@ Here's how:
 <code>sudo pip3 install numpy</code>
 
 ## Install Pillow
+<code>sudo apt-get update</code>
+<code>apt-get install libjpeg-dev zlib1g-dev</code>
 <code>pip3 install pillow</code>
 
 ## Enable SPI
