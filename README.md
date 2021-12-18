@@ -35,6 +35,13 @@ The headers or library files could not be found for jpeg,
 I re-ran the command to install luma and it gave me the same pillow / jpeg error:
 <code>  Failed building wheel for pillow  </code>
 
+### Error Fix for Python: The _imagingft C module is not installed
+sudo apt-get install libfreetype6-dev
+sudo -s
+pip3 uninstall Pillow
+pip3 install --no-cache-dir Pillow
+
+
 Working folder (for dev):
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
