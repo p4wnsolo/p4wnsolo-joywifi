@@ -18,7 +18,7 @@ Here's how:
 ## Install Pillow
 <code>sudo apt-get update</code>
 <code>apt-get install libjpeg-dev zlib1g-dev</code>
-<code>pip3 install pillow</code>
+<code>pip3 install Pillow</code>
 
 ## Enable SPI
 https://www.raspberrypi-spy.co.uk/2014/08/enabling-the-spi-interface-on-the-raspberry-pi/
