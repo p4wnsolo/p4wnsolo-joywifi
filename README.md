@@ -15,6 +15,9 @@ Here's how:
 ## Install numpy
 <code>sudo pip3 install numpy</code>
 
+## Install Pillow
+<code>pip3 install pillow</code>
+
 ## Enable SPI
 https://www.raspberrypi-spy.co.uk/2014/08/enabling-the-spi-interface-on-the-raspberry-pi/
 
