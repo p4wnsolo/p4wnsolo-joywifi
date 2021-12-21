@@ -1,4 +1,4 @@
-########### These are code snippets that need to be added to joywifi ###########
+########### These are code snippets that need to be added to joywifi ##########
 ### This file will not run ###
 
 ### Add to Line 341 (just after # Get length of input string)
