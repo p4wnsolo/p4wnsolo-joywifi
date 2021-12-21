@@ -1,0 +1,9 @@
+sudo /usr/bin/python3 /root/BeBoXGui/wifi-splash-launch.py && 
+sudo /usr/bin/python3sudo /usr/bin/python3 /root/BeBoXGui/wifi-scan.py wlan0 && 
+sudo /usr/bin/python3 /root/BeBoXGui/wifi-askreconnect.py && 
+sudo /usr/bin/python3 /root/BeBoXGui/wifi-disp.py && 
+sudo /usr/bin/python3 /root/BeBoXGui/wifi-pw-skiptest.py &&
+sudo /usr/bin/python3 /root/BeBoXGui/wifi-chek.py &&
+sudo /usr/bin/python3 /root/BeBoXGui/wifi-asksave.py
+sudo /usr/bin/python3 /root/BeBoXGui/wifi-disp-adv-fontsize.py
+
