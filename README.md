@@ -74,3 +74,9 @@ We can save our WiFi SSID & password (unsafely in a txt file - be careful):
 
 Finally, the script displays the p4wnsolo Dashboard (Demo):
 <img src="/images/p4wnsolo-joywifi-dashdemo.jpg">
+
+
+
+
+Resources Used:
+* [ThisPointer.com](https://thispointer.com/python-how-to-get-last-n-characters-in-a-string/) - Get last X characters of a string in Python using negative indexing
