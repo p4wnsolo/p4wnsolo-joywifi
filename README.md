@@ -79,4 +79,4 @@ Finally, the script displays the p4wnsolo Dashboard (Demo):
 
 
 Resources Used:
-* [ThisPointer.com](https://thispointer.com/python-how-to-get-last-n-characters-in-a-string/) - Get last X characters of a string in Python using negative indexing
+* [ThisPointer.com](https://thispointer.com/python-how-to-get-last-n-characters-in-a-string/) - Get last X characters of a string in Python using negative indexing.  Used to enable "long input strings", where there are more characters in the text input string than the screen can handle.
