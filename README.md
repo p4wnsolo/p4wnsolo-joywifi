@@ -43,10 +43,9 @@ pip3 install --no-cache-dir Pillow
 ## Working folder (for dev):
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
-[First, we scan for WiFi networks:](/images/p4wnsolo-joywifi-scanning.jpg)
+![First, we scan for WiFi networks:](/images/p4wnsolo-joywifi-scanning.jpg)
 
-If you saved the last-connected WiFi network, it asks to reconnect (if the network is found again):
-<img src="/images/p4wnsolo-joywifi-ask-to-reconnect.jpg">
+![If you saved the last-connected WiFi network, it asks to reconnect (if the network is found again):](/images/p4wnsolo-joywifi-ask-to-reconnect.jpg)
 
 Reconnecting to WiFi..
 <img src="/images/p4wnsolo-joywifi-reconnecting.jpg">
