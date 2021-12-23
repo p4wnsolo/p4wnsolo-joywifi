@@ -34,45 +34,45 @@ The headers or library files could not be found for jpeg,
 I re-ran the command to install luma and it gave me the same pillow / jpeg error:
 `Failed building wheel for pillow`
 
-### Error Fix for Python: The _imagingft C module is not installed
-sudo apt-get install libfreetype6-dev
-sudo -s
-pip3 uninstall Pillow
-pip3 install --no-cache-dir Pillow
+### Error Fix for Python: The imagingft C module is not installed
+`sudo apt-get install libfreetype6-dev`
+`sudo -s`
+`pip3 uninstall Pillow`
+`pip3 install --no-cache-dir Pillow`
 
 ## Working folder (for dev):
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
-![First, we scan for WiFi networks:](/images/p4wnsolo-joywifi-scanning.jpg)
+First, we scan for WiFi networks:
+![First, we scan for WiFi networks:](/images/p4wnsolo-joywifi-scanning.jpg "Scan for WiFi")
 
-![If you saved the last-connected WiFi network, it asks to reconnect (if the network is found again):](/images/p4wnsolo-joywifi-ask-to-reconnect.jpg)
+If you saved the last-connected WiFi network, it asks to reconnect (if the network is found again
+![Ask to reconnect WiFi:](/images/p4wnsolo-joywifi-ask-to-reconnect.jpg "Ask to reconnect")
 
 Reconnecting to WiFi..
-<img src="/images/p4wnsolo-joywifi-reconnecting.jpg">
+![Reconnecting](/images/p4wnsolo-joywifi-reconnecting.jpg "Reconnecting to WiFi")
 
 If you don't Reconnect, then we select a network using the OLED Joystick:
-<img src="/images/p4wnsolo-joywifi-wifi-networks.jpg">
+![Select WiFi](/images/p4wnsolo-joywifi-wifi-networks.jpg "Select WiFi")
 
 Here's the "Input WiFi password" screen:
-<img src="/images/p4wnsolo-joywifi-password-input.jpg">
+![Enter WiFi password](/images/p4wnsolo-joywifi-password-input.jpg "Enter WiFi password")
 
 And here's what it looks like if you press the Backspace key (KEY2):
-<img src="/images/p4wnsolo-joywifi-backspace.jpg">
+![Backspace Key for OLED text entry](/images/p4wnsolo-joywifi-backspace.jpg "Backspace Key for OLED text entry")
 
 The script shows your IP address after it connects to WiFi:
-<img src="/images/p4wnsolo-joywifi-connected-ip-address.jpg">
+![IP Address display](/images/p4wnsolo-joywifi-connected-ip-address.jpg "IP Address display")
 
 It also checks your Internet connection by pinging Google:
-<img src="/images/p4wnsolo-joywifi-link-quality.jpg">
+![Pinging Google](/images/p4wnsolo-joywifi-link-quality.jpg "Pinging Google")
 
 We can save our WiFi SSID & password (unsafely in a txt file - be careful):
-<img src="/images/p4wnsolo-joywifi-save-network.jpg">
+![Save WiFi](/images/p4wnsolo-joywifi-save-network.jpg "Save WiFi")
 
 Finally, the script displays the p4wnsolo Dashboard (Demo):
-<img src="/images/p4wnsolo-joywifi-dashdemo.jpg">
+![Show dashboard](/images/p4wnsolo-joywifi-dashdemo.jpg "Show dashboard")
 
 
-
-
-Resources Used:
+## Resources Used:
 * [ThisPointer.com](https://thispointer.com/python-how-to-get-last-n-characters-in-a-string/) - Get last X characters of a string in Python using negative indexing.  Used to enable "long input strings", where there are more characters in the text input string than the screen can handle.
