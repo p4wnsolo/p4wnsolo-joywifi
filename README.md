@@ -19,7 +19,9 @@ Here's how:
 
 ## Install Pillow
 `sudo apt-get update`
+
 `apt-get install libjpeg-dev zlib1g-dev`
+
 `pip3 install Pillow`
 
 ## Enable SPI
@@ -29,11 +31,15 @@ https://www.raspberrypi-spy.co.uk/2014/08/enabling-the-spi-interface-on-the-rasp
 I ran into the following error(s) the first time I tried to install luma.core on a fresh P4wnP1 install:
  
 `main.RequiredDependencyException: jpeg`
+
 `  Failed building wheel for pillow`
+
 `The headers or library files could not be found for jpeg,`
+
 `  a required dependency when compiling Pillow from source.`
 
 I re-ran the command to install luma and it gave me the same pillow / jpeg error:
+
 `Failed building wheel for pillow`
 
 ### Error Fix for Python: The imagingft C module is not installed
