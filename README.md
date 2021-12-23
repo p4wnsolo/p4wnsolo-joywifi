@@ -23,17 +23,16 @@ Here's how:
 ## Enable SPI
 https://www.raspberrypi-spy.co.uk/2014/08/enabling-the-spi-interface-on-the-raspberry-pi/
 
-
-
-Possible Errors:
+## Possible Errors:
 I ran into the following error(s) the first time I tried to install luma.core on a fresh P4wnP1 install:
-  \__main__.RequiredDependencyException: jpeg
+ 
+ \__main__.RequiredDependencyException: jpeg
   Failed building wheel for pillow
 The headers or library files could not be found for jpeg,
   a required dependency when compiling Pillow from source.
 
 I re-ran the command to install luma and it gave me the same pillow / jpeg error:
-<code>  Failed building wheel for pillow  </code>
+`Failed building wheel for pillow`
 
 ### Error Fix for Python: The _imagingft C module is not installed
 sudo apt-get install libfreetype6-dev
@@ -41,12 +40,10 @@ sudo -s
 pip3 uninstall Pillow
 pip3 install --no-cache-dir Pillow
 
-
-Working folder (for dev):
+## Working folder (for dev):
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
-First, we scan for WiFi networks:
-<img src="/images/p4wnsolo-joywifi-scanning.jpg">
+[First, we scan for WiFi networks:](/images/p4wnsolo-joywifi-scanning.jpg)
 
 If you saved the last-connected WiFi network, it asks to reconnect (if the network is found again):
 <img src="/images/p4wnsolo-joywifi-ask-to-reconnect.jpg">
