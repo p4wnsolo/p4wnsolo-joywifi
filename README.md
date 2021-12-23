@@ -44,12 +44,15 @@ I re-ran the command to install luma and it gave me the same pillow / jpeg error
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
 First, we scan for WiFi networks:
+
 ![First, we scan for WiFi networks:](/images/p4wnsolo-joywifi-scanning.jpg "Scan for WiFi")
 
 If you saved the last-connected WiFi network, it asks to reconnect (if the network is found again
+
 ![Ask to reconnect WiFi:](/images/p4wnsolo-joywifi-ask-to-reconnect.jpg "Ask to reconnect")
 
 Reconnecting to WiFi..
+
 ![Reconnecting](/images/p4wnsolo-joywifi-reconnecting.jpg "Reconnecting to WiFi")
 
 If you don't Reconnect, then we select a network using the OLED Joystick:
