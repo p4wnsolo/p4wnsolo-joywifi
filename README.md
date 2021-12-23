@@ -37,12 +37,17 @@ I re-ran the command to install luma and it gave me the same pillow / jpeg error
 `Failed building wheel for pillow`
 
 ### Error Fix for Python: The imagingft C module is not installed
+
 `sudo apt-get install libfreetype6-dev`
+
 `sudo -s`
+
 `pip3 uninstall Pillow`
+
 `pip3 install --no-cache-dir Pillow`
 
 ## Working folder (for dev):
+
 root@kali:~/BeBoXGui-dev/p4wnsolo-dev/p4wnsolo-joyterm#
 
 ## Images & Process Example
